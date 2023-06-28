@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "noImplicitThis": false,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "useUnknownInCatchVariables": false
+  },
+  "exclude": ["./node_modules"]
+}

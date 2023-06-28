@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.openaiController = exports.voiceController = void 0;
+const voice_controller_1 = require("./voice.controller");
+const services = require("../service");
+const openai_controller_1 = require("./openai.controller");
+const voiceController = new voice_controller_1.VoiceController(services.voiceService);
+exports.voiceController = voiceController;
+const openaiController = new openai_controller_1.OpenaiController(services.openaiService);
+exports.openaiController = openaiController;
